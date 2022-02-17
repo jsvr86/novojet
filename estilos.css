@@ -142,11 +142,8 @@ p{
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     font-size: 12px;
-
-}
-
-li{
     list-style: none;
+
 }
 
 .telefonoFooter{
@@ -285,6 +282,7 @@ li{
     font-size: 14px;
     margin-bottom: 15px;
     margin-left: 10px;
+    margin-right: 10px;
 }
 .desdecard{
     color: #021a4e;
@@ -298,4 +296,14 @@ li{
     color: white;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
+}
+
+.botonescard{
+    display: flex;
+}
+
+@media screen and (max-width: 303px){
+    .botonescard{
+        flex-direction: column;
+    }
 }
