@@ -27,7 +27,15 @@ body{
     text-decoration: none;
     background-color: #00D3FF;
 }
-
+.botonactivo{
+    color: #021a4e;
+    text-decoration: none;
+    background-color: #00D3FF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 5px
+}
 .menu_items{
     list-style: none;
     padding: 20px;
